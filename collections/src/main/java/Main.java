@@ -1,4 +1,5 @@
 import collections.ArrayListDemo;
+import collections.HashSetDemo;
 import collections.TreeSetDemo;
 
 public class Main {
@@ -9,5 +10,10 @@ public class Main {
         System.out.println();
 
         TreeSetDemo.test();
+
+        System.out.println();
+
+        HashSetDemo.test();
+        HashSetDemo.test2();
     }
 }
