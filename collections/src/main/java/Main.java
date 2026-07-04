@@ -1,6 +1,4 @@
-import collections.ArrayListDemo;
-import collections.HashSetDemo;
-import collections.TreeSetDemo;
+import collections.*;
 
 public class Main {
     static void main(String[] args) {
@@ -15,5 +13,13 @@ public class Main {
 
         HashSetDemo.test();
         HashSetDemo.test2();
+
+        System.out.println();
+
+        HashMapDemo.test();
+
+        System.out.println();
+
+        ArrayDequeDemo.test();
     }
 }
